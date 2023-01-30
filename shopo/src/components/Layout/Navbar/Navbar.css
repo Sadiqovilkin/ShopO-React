@@ -1,0 +1,120 @@
+#nav1 {
+  box-sizing: border-box;
+}
+#nav1 .upside .logo img {
+  width: 152px;
+  height: 36px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  cursor: pointer;
+}
+#nav1 .upside .forms form {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+#nav1 .upside .forms form input {
+  width: 45%;
+  outline: none;
+  font-size: 13px;
+  padding: 10px;
+  background-color: white;
+  border-right: none;
+  border-top: 1px solid rgb(230, 230, 230);
+  border-left: 1px solid rgb(230, 230, 230);
+  border-bottom: 1px solid rgb(230, 230, 230);
+}
+#nav1 .upside .forms form button {
+  width: 15%;
+  border: none;
+  background-color: #ffbb38;
+  padding: 10px;
+  font-size: 13px;
+  font-weight: 600;
+}
+#nav1 .upside .forms form select {
+  outline: none;
+  padding: 10px;
+  font-size: 13px;
+  width: 35%;
+  background-color: white;
+  border: 1px solid rgb(230, 230, 230);
+  outline: none;
+}
+#nav1 .upside .icons {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 26px;
+  justify-content: end;
+}
+#nav1 .upside .icons .item1 {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+#nav1 .upside .icons .item1 .box {
+  position: absolute;
+  top: -7px;
+  right: -5px;
+  background-color: #ffbb38;
+  color: black;
+  width: 16px;
+  height: 16px;
+  border-radius: 8px;
+  font-size: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#nav1 .downside {
+  margin-top: 30px;
+  background-color: #ffbb38;
+  padding: 8px;
+}
+#nav1 .downside select {
+  border-radius: 10px 10px 0 0;
+  outline: none;
+  padding: 10px 10px;
+  font-size: 15px;
+  width: 80%;
+  background-color: white;
+  border: 1px solid #e6e6e6;
+  font-weight: 600;
+}
+#nav1 .downside .nav_items {
+  align-items: center;
+  display: flex;
+}
+#nav1 .downside .nav_items ul {
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+#nav1 .downside .nav_items ul li {
+  cursor: pointer;
+  align-items: center;
+  list-style: none;
+  color: #1d1d1d;
+  font-weight: 600;
+  display: flex;
+  gap: 10px;
+}
+#nav1 .downside .become {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+#nav1 .downside .become a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px 14px;
+  background-color: #222222;
+  color: white;
+} /*# sourceMappingURL=Navbar.css.map */
